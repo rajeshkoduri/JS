@@ -8,15 +8,23 @@
     justify-content: space-evenly;
 }
 img{
+    margin-top: 15px;
+    border-radius: 4% 4% 0% 0%;
     height: 200px;
     width: 200px;
     background: #000;
 }
 
+#parentcontainer{
+    background-color: burlywood;
+}
 .card {
     flex-grow: 1;
     order: 3;
     border: brown dotted;
+    border-radius: 10%;
+    margin: 5px;
     line-height: 0.1;
     text-align: center;
+    background-color: antiquewhite;
 }
